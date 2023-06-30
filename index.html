@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style/style.css">
+    </head>
+    <body>
+        <div class="todo-app">
+            <div class="header">
+                <h1 class="list-title">ToDo List</h1>
+            </div>
+            <div class="list-control">
+                <img class="select-all" src="./img/check-all.svg">
+            </div>
+            <ul class="list"></ul>
+
+            <form class="controls" action="" method="post">
+                <input class="input-task" type="text" placeholder="For ex - Feed the woman" maxlength="25" required>
+                <button class="add-button" type="submit">
+                    <img src="./img/add.svg">
+                </button>
+            </form>
+        </div>
+
+        <script type="module" src="/js/Main.js"></script>
+        <script type="module" src="/js/TodoList.js"></script>
+    </body>
+</html>
